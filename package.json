@@ -13,6 +13,7 @@
     "react-dom": "^18",
     "@neondatabase/serverless": "^0.9.0",
     "bcryptjs": "^2.4.3",
-    "jose": "^5.2.0"
+    "jose": "^5.2.0",
+    "chart.js": "^4.4.1"
   }
 }
