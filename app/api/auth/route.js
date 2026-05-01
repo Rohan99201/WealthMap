@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import { signToken } from '@/lib/auth'
-import { initDb } from '@/lib/db'
+import { signToken } from '../../../lib/auth'
+import { initDb } from '../../../lib/db'
 
 export async function POST(request) {
   try {

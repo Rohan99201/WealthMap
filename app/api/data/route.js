@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
-import { getTokenFromRequest, verifyToken } from '@/lib/auth'
-import { getDb } from '@/lib/db'
-import { compoundCorpus } from '@/lib/corpus'
+import { getTokenFromRequest, verifyToken } from '../../../lib/auth'
+import { getDb } from '../../../lib/db'
+import { compoundCorpus } from '../../../lib/corpus'
 
 const VALID_SECTIONS = [
   'salary', 'assets', 'liabilities', 'investments',
