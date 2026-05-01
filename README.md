@@ -18,7 +18,6 @@ Full-stack Next.js app with PostgreSQL (Neon), deployable to Vercel for free.
 
 ## Features
 
-- ✅ Password protected (`Rohan07@`)
 - ✅ All data persisted in PostgreSQL
 - ✅ **Auto corpus compounding** — investment corpus grows monthly based on your entered return % every time you open the app
 - ✅ Edit & delete every entry
